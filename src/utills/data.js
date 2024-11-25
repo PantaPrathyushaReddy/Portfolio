@@ -46,12 +46,12 @@ export const WORK_EXPERIENCE=[
         title:"Personal Portfolio Website",
         TechnologiesUsed:"React.Js,JavaScript,CSS,HTML5,Git,GitHub,VsCode",
         responsibilities:[
-            "A responsive and interactive portfolio website built to showcase my projects,skills, and experience.",
-            "Built using React.js with a focus on clean,modular code and efficient performance.",
-            "Implemented a single-page application  structure for smooth navigation without reloads.",
-            "Designed with a fully responsive layout using  CSS Grid and Flexbox ensuring a seamless expressions  across devices.",
-            "Integrated custom animations and transitions for an engaging user interface.",
-            "Utilized Git for version control and deployed the site on Github Pages"
+            "Built with a fully responsive layout using CSS Grid and Flexbox, ensuring seamless performance across all devices",
+            "Implemented a Single-Page Application structure using React.js for smooth navigation and faster load times without page reloads",
+            "Integrated animations and transitions to create an engaging and interactive user interface.",
+            "Features dedicated sections for projects, skills, and experience, with detailed descriptions and GitHub links for projects",
+            "Focused on clean, modular, and reusable code to ensure efficient performance and scalability .",
+            "Utilized Git for version control and deployed the portfolio on GitHub Pages for easy accessibility and updates"
         ]
     },
     {
