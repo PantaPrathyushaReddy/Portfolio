@@ -3,6 +3,10 @@ import "./WorkExperience.css";
 import { WORK_EXPERIENCE } from "../../utills/data";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 const WorkExperience = () => {
   const sliderRef = useRef();
 
