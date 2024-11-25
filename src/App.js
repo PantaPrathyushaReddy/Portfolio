@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
+import "./App.css";
+import Skills from "./Components/Skills/Skills";
+import WorkExperience from "./Components/WorkExperience/WorkExperience";
+import ContactMe from "./Components/ContactMe/ContactMe";
+import Footer from "./Components/Footer/Footer";
+import { useState,useEffect } from "react";
 function App() {
+    const [isDarkMode, setIsDarkMode] = useState(false);
+  
+    useEffect(() => {
+      const darkModeMediaQuery = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+      setIsDarkMode(darkModeMediaQuery.matches);
+      const handleDarkModeChange = (e) => {
+        setIsDarkMode(e.matches);
+      };
+  
+      darkModeMediaQuery.addEventListener("change", handleDarkModeChange);
+      return () => {
+        darkModeMediaQuery.removeEventListener("change", handleDarkModeChange);
+      };
+    }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Navbar/>
+    <div className="container">
+      <Hero/>
+      <Skills darkMode = {isDarkMode}/>
+      <WorkExperience/>
+      <ContactMe/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
