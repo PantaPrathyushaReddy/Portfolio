@@ -23,7 +23,7 @@ const Navbar = () => {
             <nav className="nav_wapper">
                 <div className="nav_content">
                     {/* <h1 className="logo">ℙ𝕣𝕒𝕥𝕙𝕪𝕦𝕤𝕙𝕒 </h1> */}
-                    <img className="logo" src="./assets/images/Nameimage_Prathyusha.jpg"/>
+                    <img className="logo" src="./assets/images/Nameimage_Prathyusha.jpg" alt="Image is not loaded"/>
                     
                     <ul>
                         <li><a className="menu_item" href="#Hero">Home</a></li>
