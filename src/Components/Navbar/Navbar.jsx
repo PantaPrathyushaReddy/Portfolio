@@ -22,8 +22,6 @@ const Navbar = () => {
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
             <nav className="nav_wapper">
                 <div className="nav_content">
-                    {/* <h1 className="logo">ℙ𝕣𝕒𝕥𝕙𝕪𝕦𝕤𝕙𝕒 </h1> */}
-                    {/* <img className="logo" src="./assets/images/Prathyusha (2).png" alt="" /> */}
                     <img className="logo" src="./assets/images/Prathyusha (2).png" alt="logo"/>
                     
                     <ul>
