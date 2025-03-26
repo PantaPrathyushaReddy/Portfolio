@@ -26,7 +26,7 @@ const Navbar = () => {
                     
                     <ul>
                         <li><a className="menu_item" href="#Hero">Home</a></li>
-                        <li><a className="menu_item" href="#Skills">Skill</a></li>
+                        <li><a className="menu_item" href="#Skills">Skills</a></li>
                         <li><a className="menu_item" href="#Work">Work Experience</a></li>
                         <li><a className="menu_item" href="#Contact"> Contact Me</a></li>
                         <button className="contact_btn" onClick={handleDownload}>Download Resume</button>
