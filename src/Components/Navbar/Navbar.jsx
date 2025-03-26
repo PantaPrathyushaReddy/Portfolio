@@ -9,7 +9,7 @@ const Navbar = () => {
         setOpenMenu(!openMenu);
     };
     const handleDownload=()=>{
-        const pdfurl='./assets/images/Prathyusha Reddy.pdf';
+        const pdfurl='./assets/images/Prathyusha Panta.pdf';
         const link=document.createElement('a');
         link.href=pdfurl;
         link.download='Prathyusha Reddy.pdf';
@@ -23,7 +23,8 @@ const Navbar = () => {
             <nav className="nav_wapper">
                 <div className="nav_content">
                     {/* <h1 className="logo">ℙ𝕣𝕒𝕥𝕙𝕪𝕦𝕤𝕙𝕒 </h1> */}
-                    <img className="logo" src="./assets/images/Nameimage_Prathyusha.jpg" alt=""/>
+                    {/* <img className="logo" src="./assets/images/Prathyusha (2).png" alt="" /> */}
+                    <img className="logo" src="./assets/images/Prathyusha (2).png" alt="logo"/>
                     
                     <ul>
                         <li><a className="menu_item" href="#Hero">Home</a></li>

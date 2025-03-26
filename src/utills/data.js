@@ -67,6 +67,19 @@ export const WORK_EXPERIENCE=[
         ]
 
     },
+{
+    title:"Swiggy Clone",
+    TechnologiesUsed:"Technologies Used:React.JS,Java Script,Css,HTML5,Github,VSCode",
+    responsibilities:[
+       "Developed the Swiggy clone app by integrating real-time APIs to fetch live restaurant menus and dish details, ensuring the content is always up to date.",
+       "Designed the menu to display categories, items, and pricing in a user-friendly format, pulling real-time data from restaurant APIs.",
+       "Implemented a smooth add-to-cart feature, allowing users to select items from the menu and manage their cart with ease, including adjusting quantities and removing items.",
+       "Built with a fully responsive layout using CSS Grid and Flexbox, providing a seamless user experience across all devices.",
+       "Utilized real-time data updates to instantly reflect changes in the cart and menu items without requiring a page refresh",
+       "Created a modular and reusable codebase for easy scalability and maintainability as the app grows."
+    ]
+
+},
     {
         title:"HRMS",
         TechnologiesUsed:"Technologies Used:React.JS,Java Script,Css,HTML5,Github,VSCode",
